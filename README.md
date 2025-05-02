@@ -8,17 +8,18 @@ Copy the template, paste it to your GitHub README and edit! -->
 # Project Title
 
 Final project for the Building AI course
-![Screenshot](https://github.com/user-attachments/assets/c39b2f71-d524-4773-a195-1e987333a53b)
+
 
 
 ## Summary
 
-It uses Random Forest algorithm to fill in missing co2 valuese. A starting point is a Finnish National Emissions Database available at co2data.fi
-I used a small bit of it that covers concrete pipes and managed to predict missing values(custom diameters or shapes) with 97% accuracy.
-I tested different labelling and prediction techniques and so far the best one was Random Forest Regressor combined wiht One Hot Encoder. 
-A python example is attached
+In my final assignment I used Random Forest algorithm to fill in/predict co2 values  that are currently missing from the database. A starting point is a Finnish National Emissions Database available at co2data.fi, namely its INFRA segment that is used as a reference for co2 emission calculations in civil construction projects.
+I used a small bit of it that covers concrete pipes  because it seemed to be an easy task, and the sanity check was easy to perform. The database covers all popular sizes, e.g. 300, 400 or 500 mm but middle sizes such as 350 are currently missing. First, I tried to predict them and when I made sure the model works, I performed the sanity check. I simply deleted a couple of known values and tried to predict them and then compare predicted and actual values. I the sanity check did show  97% accuracy.
+I also compared different labelling and prediction techniques and so far, the best one was Random Forest Regressor combined with One Hot Encoder.  A python file in the repository illustrates that combination of instruments.
+The problem derives from my actual work. Missing values is a problem I faced a few times so this little algorithm is my humble attempt to solve it and make my routines easier.
 
-## Background
+![Screenshot](https://github.com/user-attachments/assets/c39b2f71-d524-4773-a195-1e987333a53b)
+
 
 Missing values is a problem I faced a few times at my actula work so this little algorithm is my humble attempt to solve it.
 
