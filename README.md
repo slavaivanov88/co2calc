@@ -30,11 +30,13 @@ Attached csv is generated from original database json, with some mino modificati
 | --------- | -------- | -------- |------ | ----------- | -------- |
 | Pipe      | Concrete | 1000     | Br    | round       | 215      |
 | Pipe      | Concrete | 1000     | Dr    | footed      | 217      |
+| etc...    | ...      | ...      | ...   | ...         | ...      |
 
 
 ## What next?
 
 The model can be developed further to cover other element and material types
+https://co2data.fi/infra/
 
 
 ## Acknowledgments
