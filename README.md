@@ -21,8 +21,6 @@ The problem derives from my actual work. Missing values is a problem I faced a f
 ![Screenshot](https://github.com/user-attachments/assets/c39b2f71-d524-4773-a195-1e987333a53b)
 
 
-Missing values is a problem I faced a few times at my actula work so this little algorithm is my humble attempt to solve it.
-
 ## Data sources and AI methods
 
 Attached csv is generated from original database json, with some mino modifications:
